@@ -1,0 +1,247 @@
+/*--------------------
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+---------------------*/
+body {
+  /*background-image: radial-gradient(circle at top left, #6d7bff80 , #f056e17f, #48466d7d);*/
+  background-image: linear-gradient(105deg, #6d7bffc2 , #939eff91, #68c1e285, #55a2bca8, #c834b97b, #f056e1a5);
+}
+/* Featurettes
+------------------------- */
+
+.seccion1 {
+  margin-top: 90px;
+  margin-bottom: 10px;
+}/*
+.seccion2 {
+  background-image: radial-gradient(circle at top left, #6d7bff80 , #f056e17f, #48466d7d);
+}*/
+.containerheader {
+  background-image: radial-gradient(circle at top left, #48466d , #48466d, #afaece, #48466d, #48466d);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999; /* Asegura que el nav esté por encima de otros elementos */
+  /* Estilos adicionales para el nav */
+}
+
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+/*se implementa Responsive al NavBar para que se pierdan las opciones de menu*/
+@media (max-width: 767px) {
+  .nav-pills {
+    display: none;
+  }
+  
+  .menu-toggle {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  .menu-btn {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .menu-icon,
+  .menu-icon::before,
+  .menu-icon::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 25px;
+    height: 3px;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-icon {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .menu-icon::before {
+    top: -8px;
+  }
+  
+  .menu-icon::after {
+    top: 8px;
+  }
+  
+  #menu-toggle:checked ~ .nav {
+    display: block;
+  }
+  
+  #menu-toggle:checked ~ .menu-btn .menu-icon {
+    background-color: transparent;
+  }
+  
+  #menu-toggle:checked ~ .menu-btn .menu-icon::before {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  #menu-toggle:checked ~ .menu-btn .menu-icon::after {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .nav-pills {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-image: radial-gradient(circle at top right, #48466d , #48466d, #afaece, #48466d, #48466d);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(255, 0, 230, 0.608);
+    z-index: 99;
+  }
+  
+  .nav-item {
+    margin-bottom: 10px;
+  }
+  
+  .nav-link {
+    display: block;
+  }
+}
+/* Estilo base del botón */
+.dropdown-menu {
+  width: 400px;
+  
+}
+.dropdown {
+  margin-bottom: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+.dropdownbuttoms{
+  width: 160px;
+  height: 45px;
+  font-size: small;
+}
+
+.boton-desplegable {
+  background-color: #f056e100;
+  color: #ffffff;
+  text-align: left;
+  padding: 1px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 160px;
+  height: 45px;
+  font-size: medium;
+  transition: background-color 0.3s ease; /* Transición para el cambio de color de fondo */
+}
+
+/* Estilo del botón al pasar el mouse */
+.boton-desplegable:hover {
+  background-color: #afaece; /* Cambia el color de fondo al pasar el mouse por encima */
+}
+.dropdown-item {
+  background-color: #11528000;
+}
+
+.dropdown-item:hover {
+  background-color: #c834b97b; /* Cambia el color de fondo en hover */
+}
+
+.dropdown-menu {
+  background-color: #afaece;
+}
+
+.dropdown-menu:hover {
+  background-color: #afaece; /* Cambia el color de fondo en hover */
+}
+
+
+/*END responsive HEADER Opciones de menu*/
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+  /*Esto sirve para ocultar el checkbox que aparece en una pantalla de PC y que al estar en una pantalla
+  de movil si este disponible*/
+  #menu-toggle {
+    display: none;
+  }
+  .boton-desplegable {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .seccion1 {
+    margin-top: 150px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+.containerfooter {
+  background-image: radial-gradient(circle at top left, #48466d , #afaece, #48466d, #afaece, #48466d);
+}
+
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Featurettes 
+//
+END
+//
+------------------------- */
+
+
+
+

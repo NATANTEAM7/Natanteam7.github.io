@@ -1,0 +1,56 @@
+Colores web
+#CBBFF1 lavanda
+fondo del logo 
+#48466d
+
+justify-content-center: es una clase CSS 
+    que se utiliza en conjunción con Bootstrap 
+    para centrar horizontalmente elementos 
+    dentro de un contenedor. 
+    Esta clase se aplica al contenedor 
+    padre y afecta a los elementos secundarios 
+    contenidos en él.
+
+py-3 establece un relleno vertical (padding) 
+    que en este caso es de tamaño 3 en un elemento.
+
+mb-4 establece un margen inferior(margin-bottom) 
+    que en este caso es de tamaño 4 en un elemento.
+
+mb-md-0 Quita el marger inferior en dispositivos de tamaño mediano
+    (tabletas y pantallas más grandes). En dispositivos pequeños, se 
+    aplicará  el margen inferior definido por "mb-4", pero en dispositivos
+    de tamaño mediano, el margen inferior se eliminará.
+
+mb-md-auto establece el margen derecha del elemento en "auto" en dispositivos
+    de tamaño mediano. Esto alinea automáticamente el elemento
+    a la izquierda en dispositivos de tamaño mediano, pero no afecta
+    a la alineación en otros dispositivos.
+
+d-flex establece un contenedor con un diseño flexible.
+
+flex-wrap permite que los elementos secundarios del contenedor
+    se envuelvan en varias líneas si no hay suficiente espacio  
+    horizontal para colocaros en una sola línea.
+
+align-items-center alinea verticalmente los elementos   
+    secundarios dentro de un contenedor en el centro.
+
+text-decoration-none Es una clase que se utiliza para eliminar
+    la decoración de texto en un elemento, como subrayado, línea a través del texto
+    u otras decoraciones predeterminadas.
+
+ul Lista desordenada
+
+nav define una sección de navegación en una página web.
+    Proporciona orden semántico para los elementos de navegación,
+    como enlaces, menús y barras de navegación.
+
+nav-pills clase de Booststrap que se utiliza junto con la etiqueta <ul> para centrar
+    un conjunto de pestañas o botones de navegación con estilo de 
+    píldoras.
+
+li se utiliza para crear elementos de lista dentro de una lista ordenada "<ol>" o una lista
+    desordenada "<ul>". li = 'list item' Elemento de lista .
+
+
